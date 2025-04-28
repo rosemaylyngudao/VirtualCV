@@ -1,0 +1,361 @@
+
+
+
+/* ===============================
+   HEADER & NAVIGATION
+=================================*/
+header {
+    background-color: #395a7f;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #333;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+    border-radius: 4px;
+}
+
+/* ===============================
+   HERO SECTION
+=================================*/
+.hero {
+    background: linear-gradient(to right, #a3cae9, #a3cae9);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 1rem;
+    min-height: 60vh;
+    text-align: center;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.profile-pic-container {
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+    background-color: #7198b7; /* You can change this to any color you like */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; /* Optional, for spacing */
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.text-content {
+    max-width: 500px;
+}
+
+/* ===============================
+   CONTAINER / LAYOUT
+=================================*/
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* ===============================
+   CARD COMPONENT
+=================================*/
+.card {
+    background-color: #fff;
+    padding: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* ===============================
+   BUTTONS
+=================================*/
+.btn {
+    display: inline-block;
+    padding: 0.7rem 1.2rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.btn-primary {
+    background-color: #fdf7f7;
+    color: #060606;
+    border: 2px solid #0b0b0b;
+}
+
+.btn-primary:hover {
+    background-color: #060606;
+    color: #fff;
+    transform: scale(1.05);
+}
+
+.btn-secondary {
+    background-color: #fff;
+    color: #090909;
+    border: 2px solid #0b0b0b;
+}
+
+.btn-secondary:hover {
+    background-color: #080808;
+    color: #fff;
+    transform: scale(1.05);
+}
+
+/* ===============================
+   FORMS & INPUTS
+=================================*/
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.5rem;
+    width: 100%; /* Ensure responsiveness */
+    max-width: 600px; /* Constrain width for better appearance */
+    margin: auto;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    padding: 8px;
+    margin-bottom: 8px;
+    border: 1px solid #ddd; /* Lighter borders for minimalism */
+    border-radius: 4px;
+    font-size: 0.9rem;
+}
+
+label {
+    margin-bottom: 4px;
+    font-size: 0.9rem;
+    color: #555;
+    font-weight: 600; /* Subtle emphasis */
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 8px;
+    font-size: 0.9rem;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.card {
+    width: 95%; /* Make it more compact */
+    max-width: 700px; /* Constrain max width for neat layout */
+    margin: 1rem auto;
+    padding: 1rem;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.card h2,
+.card p {
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+/* ===============================
+   FOOTER
+=================================*/
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 40px;
+    font-size: 0.9rem;
+}
+
+
+main {
+    width: 90%;
+    max-width: 800px;
+    margin: auto;
+    padding: 1rem;
+}
+
+section {
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    background-color: #f9f9f9;
+    border-radius: 6px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+/* General Styling */
+body {
+    font-family: 'Georgia', serif; /* Choose a formal font */
+    background-color: #e9ecee; /* Subtle off-white background */
+    color: #333; /* Darker, professional text color */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    background-color: #395a7f; /* Formal navy blue */
+    margin: 0;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    background-color: #d2e4f7; /* Lighter blue on hover */
+}
+
+h2, h3 {
+    color: #003366;
+    border-bottom: 2px solid #00509e; /* Subtle line for headings */
+    padding-bottom: 5px;
+}
+
+/* Skills Section */
+.skills-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.skills-column {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 45%;
+}
+
+.skills-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills-column ul li {
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.progress-bar {
+    width: 100%;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 10px;
+    margin-top: 5px;
+}
+
+.progress {
+    height: 10px;
+    background-color: #00509e; /* Formal blue color */
+    width: 0; /* Initial width */
+    transition: width 0.5s ease;
+}
+
+/* Certificate Gallery Styles */
+.certificate-gallery {
+    padding: 2rem;
+    background-color: #f9f9f9;
+  }
+  
+  .certificate-gallery h3 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+  }
+  
+  .gallery-item {
+    flex: 1 1 250px;
+    max-width: 300px;
+    background-color: #fff;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .gallery-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
